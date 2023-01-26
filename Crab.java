@@ -1,11 +1,5 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class MovingSprite here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Crab extends Actor
 {
     protected int width;
@@ -18,6 +12,9 @@ public class Crab extends Actor
     
     private CrabWorld world;
     
+    /**
+     * Sets up the crab and rotates it to face up
+     */
     public Crab()
     {
         image = getImage();
@@ -30,9 +27,8 @@ public class Crab extends Actor
     }
     
     /**
-     * This method allows the user to move the crab so that when
-     * it collides with a worm the worm is removed and the score
-     * is increase
+     * Calls move4Ways() to allow the player to move and then calls 
+     * hitDetection() to check if the player has it any lobsters or worms
      */
     public void act()
     {
@@ -40,6 +36,10 @@ public class Crab extends Actor
        hitDetection();
     }
     
+    /**
+     * Checks if the player has it any lobsters or worms and then updates the
+     * lives or removes the worm, updates the score and ads new worms
+     */
     public void hitDetection()  
     {
        Actor HorizontalLobster = getOneIntersectingObject(HorizontalLobster.class);
@@ -69,9 +69,7 @@ public class Crab extends Actor
     }
     
     /**
-     * This method moves the crab around in four directions
-     * left, right, up and down using coordinate positions. 
-     * It must not move off the screen.
+     * Allows the crab to move up and down and turn left and right
      */
     public void move4Ways()
     {

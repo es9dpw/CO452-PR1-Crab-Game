@@ -1,4 +1,4 @@
- import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
 /**
  * A Counter class that allows you to display a numerical value on screen.
@@ -48,7 +48,7 @@ public class Counter extends Actor
      */
     public Counter(String prefix)
     {
-        background = getImage();  // get image from class
+        background = getImage();
         value = 0;
         target = 0;
         this.prefix = prefix;
@@ -56,7 +56,7 @@ public class Counter extends Actor
     }
     
     /**
-     * Animate the display to count up (or down) to the current target value.
+     * sets the target variable to the score variable and then runs addScore()
      */
     public void act() 
     {
@@ -64,6 +64,9 @@ public class Counter extends Actor
         addScore();
     }
     
+    /**
+     * Animates the display to count up (or down) to the current target value.
+     */
     public void addScore()
     {
         if (value < target) {
@@ -77,7 +80,7 @@ public class Counter extends Actor
     }
 
     /**
-     * Update the image on screen to show the current value.
+     * Updates the image on screen to show the current value.
      */
     private void updateImage()
     {

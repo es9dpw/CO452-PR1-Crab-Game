@@ -1,20 +1,24 @@
 #BlueJ class context
 comment0.target=CrabWorld
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=CrabWorld()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment1.text=\r\n\ Sets\ up\ the\ CrabWorld\r\n
 comment2.params=
 comment2.target=void\ createWorm()
-comment2.text=\r\n\ This\ method\ creates\ &\ adds\ a\ single\ worm\ to\ a\ random\ position\ in\r\n\ the\ world\ that\ is\ not\ too\ near\ the\ edge\ of\ the\ screen\r\n
+comment2.text=\r\n\ This\ method\ creates\ &\ adds\ worms\ in\ random\ postions\ and\ \r\n\ of\ different\ amounts\ depending\ on\ how\ high\ the\ score\ is\r\n
 comment3.params=
 comment3.target=void\ score()
+comment3.text=\r\n\ This\ method\ adds\ 100\ to\ the\ score\ each\ time\ the\ crab\ eats\ a\ worm.\r\n\ It\ also\ checks\ the\ score\ to\ remove\ the\ beginning\ text\ and\ to\ add\ more\r\n\ lobsters\ as\ well\ as\ end\ the\ game\ when\ the\ player\ wins\r\n
 comment4.params=
 comment4.target=void\ setupScore()
+comment4.text=\r\n\ This\ method\ creates\ the\ score\ display\r\n
 comment5.params=
 comment5.target=void\ minusLife()
+comment5.text=\r\n\ This\ method\ takes\ lives\ away\ when\ the\ crab\ collides\ with\ a\ lobster\r\n\ It\ then\ updates\ the\ lives\ count\ and\ if\ the\ lives\ are\ 0\ it\ ends\ the\ game\r\n\ as\ the\ player\ has\ lost\r\n
 comment6.params=
 comment6.target=void\ endGame()
+comment6.text=\r\n\ This\ method\ displays\ text\ telling\ the\ player\ they\ lost\ and\ ends\ the\r\n\ game\r\n
 comment7.params=
 comment7.target=void\ winGame()
+comment7.text=\r\n\ This\ method\ displays\ text\ telling\ the\ player\ they\ won\ and\ ends\ the\ game\r\n
 numComments=8

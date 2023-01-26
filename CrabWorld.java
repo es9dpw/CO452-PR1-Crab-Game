@@ -1,11 +1,5 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class MyWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class CrabWorld extends World
 {
     private Crab crab;
@@ -22,12 +16,10 @@ public class CrabWorld extends World
     public int wormsNUM;
     
     /**
-     * Constructor for objects of class MyWorld.
-     * 
+     * Sets up the CrabWorld
      */
     public CrabWorld()
     {    
-        // Create a new world with 800x600 cells with a cell size of 1x1 pixels.
         super(800, 600, 1); 
         
         crab = new Crab();
@@ -51,8 +43,8 @@ public class CrabWorld extends World
     }
 
     /**
-     * This method creates & adds a single worm to a random position in
-     * the world that is not too near the edge of the screen
+     * This method creates & adds worms in random postions and 
+     * of different amounts depending on how high the score is
      */
     public void createWorm()
     {
@@ -84,6 +76,11 @@ public class CrabWorld extends World
         }
     }
     
+    /**
+     * This method adds 100 to the score each time the crab eats a worm.
+     * It also checks the score to remove the beginning text and to add more
+     * lobsters as well as end the game when the player wins
+     */
     public void score()
     {
         score = score + 100;
@@ -119,6 +116,9 @@ public class CrabWorld extends World
         }
     }
     
+    /**
+     * This method creates the score display
+     */
     public void setupScore()
     {
         score = 0;
@@ -127,6 +127,11 @@ public class CrabWorld extends World
         score = 0;
     }
     
+    /**
+     * This method takes lives away when the crab collides with a lobster
+     * It then updates the lives count and if the lives are 0 it ends the game
+     * as the player has lost
+     */
     public void minusLife()
     {
         lives--;
@@ -136,12 +141,19 @@ public class CrabWorld extends World
         }
     }
     
+    /**
+     * This method displays text telling the player they lost and ends the
+     * game
+     */
     public void endGame()
     {
         showText("Game Over: You have Lost!", 400, 300);
         Greenfoot.stop();
     }
     
+    /**
+     * This method displays text telling the player they won and ends the game
+     */
     public void winGame()
     {
         showText("Congratulations, You Won!", 400, 300);

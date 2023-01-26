@@ -1,16 +1,11 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 
-/**
- * Write a description of class Worm here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Worm extends Actor
 {
     /**
-     * Act - do whatever the Worm wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * The worm does nothing and is simply placed in the world for the crab to
+     * eat. All collison detection is handled in the crab so nothing is needed
+     * here
      */
     public void act()
     {
