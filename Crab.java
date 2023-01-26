@@ -46,14 +46,16 @@ public class Crab extends Actor
        
        if(HorizontalLobster != null)  
        {       
-           ((CrabWorld) getWorld()).endGame();
+           ((CrabWorld) getWorld()).minusLife();
+           setLocation(500, 300);
        }
        
        Actor VerticalLobster = getOneIntersectingObject(VerticalLobster.class);
        
        if(VerticalLobster != null)  
        {       
-           ((CrabWorld) getWorld()).endGame();
+           ((CrabWorld) getWorld()).minusLife();
+           setLocation(500, 300);
        }
        
        Actor Worm = getOneIntersectingObject(Worm.class);
