@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HorizontalLobster
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Lobster\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ This\ method\ looks\ to\ see\ if\ the\ crab\ is\ within\ a\ certain\r\n\ distances\ and\ if\ so\ turns\ in\ that\ direction.\ \ If\ not\ within\r\n\ range\ the\ lobster\ makes\ a\ move\ in\ a\ random\ direction.\r\n\ If\ the\ lobster\ touches\ the\ crab,\ the\ game\ ends.\r\n
+comment2.params=
+comment2.target=void\ positionReset()
+numComments=3

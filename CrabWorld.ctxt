@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CrabWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=CrabWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ createWorm()
+comment2.text=\r\n\ This\ method\ creates\ &\ adds\ a\ single\ worm\ to\ a\ random\ position\ in\r\n\ the\ world\ that\ is\ not\ too\ near\ the\ edge\ of\ the\ screen\r\n
+comment3.params=
+comment3.target=void\ score()
+comment4.params=
+comment4.target=void\ setupScore()
+comment5.params=
+comment5.target=void\ endGame()
+comment6.params=
+comment6.target=void\ winGame()
+numComments=7
