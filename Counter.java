@@ -69,7 +69,12 @@ public class Counter extends Actor
      */
     public void addScore()
     {
-        if (value < target) {
+        if (target >= 5000){
+            value = 5000;
+            updateImage();
+            ((CrabWorld) getWorld()).winGame();
+        }
+        else if (value < target) {
             value++;
             updateImage();
         }

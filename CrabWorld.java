@@ -113,10 +113,6 @@ public class CrabWorld extends World
             vLobster = new VerticalLobster();
             addObject(vLobster, 400, 0);
         }
-        
-        if (score >= 5000){
-            winGame();
-        }
     }
     
     /**
