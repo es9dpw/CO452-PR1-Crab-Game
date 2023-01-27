@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=HorizontalLobster
+comment0.text=\r\n\ This\ is\ the\ HorizontalLobster\ Class\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ Moves\ the\ lobster\ and\ then\ calls\ positionReset()\ to\ see\ if\ it\ has\ \r\n\ reached\ the\ edge\ of\ the\ screen\r\n

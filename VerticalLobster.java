@@ -2,6 +2,9 @@ import greenfoot.*;
 import java.util.Random;
 import java.util.List;
 
+/**
+ * This is the VerticalLobster Class
+ */
 public class VerticalLobster extends Actor
 {
     private int positionReset = 0;

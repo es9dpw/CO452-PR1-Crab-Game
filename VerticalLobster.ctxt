@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=VerticalLobster
+comment0.text=\r\n\ This\ is\ the\ VerticalLobster\ Class\r\n
 comment1.params=
 comment1.target=VerticalLobster()
 comment1.text=\r\n\ Sets\ the\ rotation\ of\ the\ lobster\ downwards\ so\ it\ travels\ vertically\ \r\n\ rather\ than\ horizontally\r\n

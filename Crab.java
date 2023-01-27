@@ -1,5 +1,8 @@
 import greenfoot.*;
 
+/**
+ * This is the Crab Class
+ */
 public class Crab extends Actor
 {
     protected int width;

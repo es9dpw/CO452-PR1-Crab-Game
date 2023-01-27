@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Worm
+comment0.text=\r\n\ This\ is\ the\ Worm\ Class\r\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\r\n\ The\ worm\ does\ nothing\ and\ is\ simply\ placed\ in\ the\ world\ for\ the\ crab\ to\r\n\ eat.\ All\ collision\ detection\ is\ handled\ in\ the\ crab\ so\ nothing\ is\ needed\r\n\ here\r\n

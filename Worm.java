@@ -1,5 +1,8 @@
 import greenfoot.*;
 
+/**
+ * This is the Worm Class
+ */
 public class Worm extends Actor
 {
     /**

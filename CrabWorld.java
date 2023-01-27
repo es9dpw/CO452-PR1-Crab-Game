@@ -1,5 +1,8 @@
 import greenfoot.*;
 
+/**
+ * This is the CrabWorld Class
+ */
 public class CrabWorld extends World
 {
     private Crab crab;
@@ -52,7 +55,7 @@ public class CrabWorld extends World
             worms = new Worm();
             addObject(worms, Greenfoot.getRandomNumber(getWidth()), Greenfoot.getRandomNumber(getHeight()));
         }
-        if (score >= 1000 && score < 2500){
+        if (score >= 1000 && score < 2600){
             wormsNUM--;
             if (wormsNUM <= 0){
                 worms = new Worm();
@@ -62,7 +65,7 @@ public class CrabWorld extends World
                 wormsNUM = 2;
             }
         }
-        if (score >= 2500){
+        if (score >= 2600){
             wormsNUM--;
             if (wormsNUM <= 0){
                 worms = new Worm();
